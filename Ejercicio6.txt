@@ -1,0 +1,20 @@
+Proceso Ejercicio_6
+	menor<-0;
+	mayor<-0;
+	igual<-0;
+	Escribir "Ingrese las edades";
+	para x=1 hasta 100 Con Paso 1 Hacer
+		leer e;
+		si e<25 Entonces
+			menor<-menor+1;
+		FinSi
+		si e>=25 Entonces
+			mayor<-mayor+1;
+		FinSi
+	FinPara
+	suma<-menor+mayor;
+	p1<-menor/suma;
+	p2<-mayor/suma;
+	Escribir "El promedio de las personas mayores de edad es: ",p2;
+	Escribir "El promedio de las personas menores de edad es: ",p1;
+FinProceso
